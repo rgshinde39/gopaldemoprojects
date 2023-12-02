@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
        Test tt = new Test();
@@ -7,5 +9,8 @@ public class Main {
       System.out.println(result);
       int re = tt.multTwoNum(5, 10);
       System.out.println(re);
+      int[] arr = {1,2,1,2,3,4,5,3};
+      ArrayList<Integer> a = tt.findUnicNumArr(arr);
+      System.out.println(a);
     }
 }
