@@ -12,5 +12,9 @@ public class Main {
       int[] arr = {1,2,1,2,3,4,5,3};
       ArrayList<Integer> a = tt.findUnicNumArr(arr);
       System.out.println(a);
+      int[] am = {1,2,3,4,6,7};
+      MissingNum mm = new MissingNum();
+     int ms = mm.findMissingNum(am);
+     System.out.println(ms);
     }
 }
