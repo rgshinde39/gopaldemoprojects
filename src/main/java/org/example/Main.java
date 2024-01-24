@@ -12,5 +12,8 @@ public class Main {
       int[] arr = {1,2,1,2,3,4,5,3};
       ArrayList<Integer> a = tt.findUnicNumArr(arr);
       System.out.println(a);
+      int[] arr2 = {1,3,2,8,4,5,7};
+      int two = tt.addTwoArray(arr, arr2);
+      System.out.println(two);
     }
 }
